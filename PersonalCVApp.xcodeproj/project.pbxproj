@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		71CE9E3F2367638E009DE1C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE9E3E2367638E009DE1C5 /* AppDelegate.swift */; };
 		71CE9E412367638E009DE1C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE9E402367638E009DE1C5 /* SceneDelegate.swift */; };
-		71CE9E432367638E009DE1C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE9E422367638E009DE1C5 /* ViewController.swift */; };
 		71CE9E462367638E009DE1C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CE9E442367638E009DE1C5 /* Main.storyboard */; };
 		71CE9E4823676395009DE1C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CE9E4723676395009DE1C5 /* Assets.xcassets */; };
 		71CE9E4B23676395009DE1C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CE9E4923676395009DE1C5 /* LaunchScreen.storyboard */; };
+		71CE9E53236783D4009DE1C5 /* CVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE9E52236783D4009DE1C5 /* CVViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		71CE9E3B2367638D009DE1C5 /* PersonalCVApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalCVApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CE9E3E2367638E009DE1C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71CE9E402367638E009DE1C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71CE9E422367638E009DE1C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71CE9E452367638E009DE1C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71CE9E4723676395009DE1C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71CE9E4A23676395009DE1C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71CE9E4C23676395009DE1C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CE9E52236783D4009DE1C5 /* CVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			children = (
 				71CE9E3E2367638E009DE1C5 /* AppDelegate.swift */,
 				71CE9E402367638E009DE1C5 /* SceneDelegate.swift */,
-				71CE9E422367638E009DE1C5 /* ViewController.swift */,
 				71CE9E442367638E009DE1C5 /* Main.storyboard */,
 				71CE9E4723676395009DE1C5 /* Assets.xcassets */,
 				71CE9E4923676395009DE1C5 /* LaunchScreen.storyboard */,
 				71CE9E4C23676395009DE1C5 /* Info.plist */,
+				71CE9E52236783D4009DE1C5 /* CVViewController.swift */,
 			);
 			path = PersonalCVApp;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71CE9E432367638E009DE1C5 /* ViewController.swift in Sources */,
+				71CE9E53236783D4009DE1C5 /* CVViewController.swift in Sources */,
 				71CE9E3F2367638E009DE1C5 /* AppDelegate.swift in Sources */,
 				71CE9E412367638E009DE1C5 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CTG4422Q67;
 				INFOPLIST_FILE = PersonalCVApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CTG4422Q67;
 				INFOPLIST_FILE = PersonalCVApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

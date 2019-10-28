@@ -1,24 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZvU-gq-5bW">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Johan-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CVViewController" customModule="PersonalCVApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <userGuides>
+                            <userLayoutGuide location="16" affinity="minX"/>
+                            <userLayoutGuide location="398" affinity="minX"/>
+                        </userGuides>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2N7-UA-oY3">
+                                <rect key="frame" x="0.0" y="66" width="414" height="787"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" verticalHuggingPriority="230" translatesAutoresizingMaskIntoConstraints="NO" id="EP8-r9-V1N">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="yLN-mX-Vih">
+                                                <rect key="frame" x="16" y="38" width="274" height="91.5"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Kiv-go-5Cb">
+                                                        <rect key="frame" x="0.0" y="0.5" width="136" height="90.5"/>
+                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="1Lw-lN-zDe">
+                                                        <rect key="frame" x="138" y="0.0" width="136" height="91.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+46 112 1337 55" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maY-gx-Ayc">
+                                                                <rect key="frame" x="0.0" y="0.0" width="136" height="22.5"/>
+                                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jönköping 1A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5c-rW-meC">
+                                                                <rect key="frame" x="0.0" y="34.5" width="136" height="22.5"/>
+                                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mora 2B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nqx-jL-Qzh">
+                                                                <rect key="frame" x="0.0" y="69" width="136" height="22.5"/>
+                                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="yLN-mX-Vih" firstAttribute="top" secondItem="EP8-r9-V1N" secondAttribute="top" constant="38" id="4bx-Aa-jOV"/>
+                                            <constraint firstAttribute="height" constant="150" id="ExZ-4d-dzH"/>
+                                            <constraint firstItem="yLN-mX-Vih" firstAttribute="leading" secondItem="EP8-r9-V1N" secondAttribute="leading" constant="16" id="kZk-Yt-QiA"/>
+                                        </constraints>
+                                    </view>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZdR-AV-q4D">
+                                        <rect key="frame" x="16" y="160" width="382" height="458"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat ipsum consequat, ullamcorper arcu at, gravida dolor. In vulputate lectus ex, a euismod felis facilisis nec. Donec fringilla laoreet mollis. Nulla vitae tellus tincidunt, molestie dolor vel, tristique tellus. Ut in sapien eget nunc pharetra dictum. Aenean eu nibh rutrum mi commodo aliquet. Donec commodo mollis ante, ornare ornare arcu. Vivamus vulputate tempor justo. Suspendisse et nisi pretium, sollicitudin nunc a, iaculis mi. Sed risus lectus, egestas vitae nisl sit amet, convallis ultricies nibh. Vivamus eget lacus a quam commodo pretium. Nam eget blandit eros, a volutpat metus. Mauris hendrerit, eros quis pharetra ullamcorper, massa dui faucibus augue, sit amet auctor turpis nulla ac purus.
+
+Duis ac fringilla tortor. Proin pharetra, ligula sed rhoncus tincidunt, orci ipsum consequat ex, elementum semper velit tellus vulputate metus. Phasellus lacinia vehicula est, id tincidunt purus. Cras mattis orci vel pellentesque pretium. Proin dui mauris, rutrum id lobortis vel, maximus id sapien. Sed elementum vestibulum urna at volutpat. Aliquam ornare tempus felis id molestie. Praesent mattis nibh id turpis vulputate, id ullamcorper leo convallis. Suspendisse iaculis nisi vel consequat sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vulputate quam eget feugiat vehicula. Maecenas laoreet quis purus in suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu hendrerit velit, molestie molestie nisi. In sit amet convallis erat. Morbi sapien orci, faucibus id luctus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat ipsum consequat, ullamcorper arcu at, gravida dolor. In vulputate lectus ex, a euismod felis facilisis nec. Donec fringilla laoreet mollis. Nulla vitae tellus tincidunt, molestie dolor vel, tristique tellus. Ut in sapien eget nunc pharetra dictum. Aenean eu nibh rutrum mi commodo aliquet. Donec commodo mollis ante, ornare ornare arcu. Vivamus vulputate tempor justo. Suspendisse et nisi pretium, sollicitudin nunc a, iaculis mi. Sed risus lectus, egestas vitae nisl sit amet, convallis ultricies nibh. Vivamus eget lacus a quam commodo pretium. Nam eget blandit eros, a volutpat metus. Mauris hendrerit, eros quis pharetra ullamcorper, massa dui faucibus augue, sit amet auctor turpis nulla ac purus.
+
+Duis ac fringilla tortor. Proin pharetra, ligula sed rhoncus tincidunt, orci ipsum consequat ex, elementum semper velit tellus vulputate metus. Phasellus lacinia vehicula est, id tincidunt purus. Cras mattis orci vel pellentesque pretium. Proin dui mauris, rutrum id lobortis vel, maximus id sapien. Sed elementum vestibulum urna at volutpat. Aliquam ornare tempus felis id molestie. Praesent mattis nibh id turpis vulputate, id ullamcorper leo convallis. Suspendisse iaculis nisi vel consequat sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vulputate quam eget feugiat vehicula. Maecenas laoreet quis purus in suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu hendrerit velit, molestie molestie nisi. In sit amet convallis erat. Morbi sapien orci, faucibus id luctus.</string>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="tBr-FW-uWT">
+                                        <rect key="frame" x="0.0" y="628" width="414" height="159"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFf-Yl-UBj">
+                                                <rect key="frame" x="16" y="8" width="382" height="60"/>
+                                                <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="hDw-ne-m9r"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="27"/>
+                                                <state key="normal" title="Experience">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euh-8a-A3G">
+                                                <rect key="frame" x="16" y="91" width="382" height="60"/>
+                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="OdH-eV-jI7"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="28"/>
+                                                <state key="normal" title="Skills">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <edgeInsets key="layoutMargins" top="8" left="16" bottom="8" right="16"/>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ZdR-AV-q4D" secondAttribute="trailing" constant="16" id="D0l-ru-iZK"/>
+                                    <constraint firstItem="tBr-FW-uWT" firstAttribute="leading" secondItem="2N7-UA-oY3" secondAttribute="leading" id="Qj6-95-CLs"/>
+                                    <constraint firstItem="ZdR-AV-q4D" firstAttribute="top" secondItem="EP8-r9-V1N" secondAttribute="bottom" constant="10" id="SdC-mk-4W8"/>
+                                    <constraint firstItem="ZdR-AV-q4D" firstAttribute="leading" secondItem="2N7-UA-oY3" secondAttribute="leading" constant="16" id="YfU-Ry-yke"/>
+                                    <constraint firstItem="EP8-r9-V1N" firstAttribute="leading" secondItem="2N7-UA-oY3" secondAttribute="leading" id="i07-ce-BOl"/>
+                                    <constraint firstAttribute="trailing" secondItem="tBr-FW-uWT" secondAttribute="trailing" id="whb-Cf-jmC"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2N7-UA-oY3" secondAttribute="trailing" id="BHX-Xn-UTk"/>
+                            <constraint firstItem="2N7-UA-oY3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-22" id="Pv3-Mf-rbA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2N7-UA-oY3" secondAttribute="bottom" constant="9" id="WFE-V9-2pz"/>
+                            <constraint firstItem="2N7-UA-oY3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tmP-Wl-x1F"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Johan" id="N0c-hQ-hPm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="118.52678571428571"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="C7Y-Yo-2U1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZvU-gq-5bW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hrQ-Mc-tOF">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="zvl-Tf-noo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M4b-1J-unL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="person.circle" catalog="system" width="64" height="60"/>
+    </resources>
 </document>
