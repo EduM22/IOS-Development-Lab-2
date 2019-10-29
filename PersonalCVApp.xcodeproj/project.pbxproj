@@ -13,6 +13,7 @@
 		71CE9E4823676395009DE1C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CE9E4723676395009DE1C5 /* Assets.xcassets */; };
 		71CE9E4B23676395009DE1C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CE9E4923676395009DE1C5 /* LaunchScreen.storyboard */; };
 		71CE9E53236783D4009DE1C5 /* CVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE9E52236783D4009DE1C5 /* CVViewController.swift */; };
+		71CE9E55236789D9009DE1C5 /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE9E54236789D9009DE1C5 /* ExperienceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		71CE9E4A23676395009DE1C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71CE9E4C23676395009DE1C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71CE9E52236783D4009DE1C5 /* CVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVViewController.swift; sourceTree = "<group>"; };
+		71CE9E54236789D9009DE1C5 /* ExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				71CE9E4923676395009DE1C5 /* LaunchScreen.storyboard */,
 				71CE9E4C23676395009DE1C5 /* Info.plist */,
 				71CE9E52236783D4009DE1C5 /* CVViewController.swift */,
+				71CE9E54236789D9009DE1C5 /* ExperienceViewController.swift */,
 			);
 			path = PersonalCVApp;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71CE9E55236789D9009DE1C5 /* ExperienceViewController.swift in Sources */,
 				71CE9E53236783D4009DE1C5 /* CVViewController.swift in Sources */,
 				71CE9E3F2367638E009DE1C5 /* AppDelegate.swift in Sources */,
 				71CE9E412367638E009DE1C5 /* SceneDelegate.swift in Sources */,
