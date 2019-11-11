@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		710172FA2379CA0A00CCDC9E /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710172F92379CA0A00CCDC9E /* SkillsViewController.swift */; };
 		7107FB7B23717FAD00AB1E1E /* ExperienceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7107FB7A23717FAD00AB1E1E /* ExperienceTableViewCell.swift */; };
 		7107FB7F2371A3B200AB1E1E /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7107FB7E2371A3B200AB1E1E /* data.swift */; };
-		711A59E5236B8145000DFA49 /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A59E4236B8145000DFA49 /* SkillsViewController.swift */; };
 		71B446912368944900FB282D /* ExperienceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B446902368944900FB282D /* ExperienceDetailViewController.swift */; };
 		71CE9E3F2367638E009DE1C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE9E3E2367638E009DE1C5 /* AppDelegate.swift */; };
 		71CE9E412367638E009DE1C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CE9E402367638E009DE1C5 /* SceneDelegate.swift */; };
@@ -21,9 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		710172F92379CA0A00CCDC9E /* SkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
 		7107FB7A23717FAD00AB1E1E /* ExperienceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewCell.swift; sourceTree = "<group>"; };
 		7107FB7E2371A3B200AB1E1E /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
-		711A59E4236B8145000DFA49 /* SkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
 		71B446902368944900FB282D /* ExperienceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceDetailViewController.swift; sourceTree = "<group>"; };
 		71CE9E3B2367638D009DE1C5 /* PersonalCVApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalCVApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CE9E3E2367638E009DE1C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,9 +75,9 @@
 				71CE9E52236783D4009DE1C5 /* CVViewController.swift */,
 				71CE9E54236789D9009DE1C5 /* ExperienceViewController.swift */,
 				71B446902368944900FB282D /* ExperienceDetailViewController.swift */,
-				711A59E4236B8145000DFA49 /* SkillsViewController.swift */,
 				7107FB7A23717FAD00AB1E1E /* ExperienceTableViewCell.swift */,
 				7107FB7E2371A3B200AB1E1E /* data.swift */,
+				710172F92379CA0A00CCDC9E /* SkillsViewController.swift */,
 			);
 			path = PersonalCVApp;
 			sourceTree = "<group>";
@@ -158,8 +158,8 @@
 				71B446912368944900FB282D /* ExperienceDetailViewController.swift in Sources */,
 				71CE9E53236783D4009DE1C5 /* CVViewController.swift in Sources */,
 				71CE9E3F2367638E009DE1C5 /* AppDelegate.swift in Sources */,
-				711A59E5236B8145000DFA49 /* SkillsViewController.swift in Sources */,
 				7107FB7F2371A3B200AB1E1E /* data.swift in Sources */,
+				710172FA2379CA0A00CCDC9E /* SkillsViewController.swift in Sources */,
 				71CE9E412367638E009DE1C5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
