@@ -240,7 +240,7 @@ Duis ac fringilla tortor. Proin pharetra, ligula sed rhoncus tincidunt, orci ips
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="47p-re-Pe0">
-                                <rect key="frame" x="0.0" y="200" width="414" height="460"/>
+                                <rect key="frame" x="0.0" y="150" width="414" height="460"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rlw-Cg-aWu">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
@@ -286,7 +286,7 @@ Duis ac fringilla tortor. Proin pharetra, ligula sed rhoncus tincidunt, orci ips
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="47p-re-Pe0" firstAttribute="top" secondItem="NXD-Cu-qBH" secondAttribute="bottom" constant="150" id="5Ln-gN-Oux"/>
+                            <constraint firstItem="47p-re-Pe0" firstAttribute="top" secondItem="NXD-Cu-qBH" secondAttribute="bottom" constant="100" id="5Ln-gN-Oux"/>
                             <constraint firstItem="47p-re-Pe0" firstAttribute="leading" secondItem="a0h-Yu-gqX" secondAttribute="leading" id="9ix-nn-ZtP"/>
                             <constraint firstItem="NXD-Cu-qBH" firstAttribute="top" secondItem="a0h-Yu-gqX" secondAttribute="top" constant="20" id="QzH-9M-vyj"/>
                             <constraint firstItem="a0h-Yu-gqX" firstAttribute="trailing" secondItem="NXD-Cu-qBH" secondAttribute="trailing" constant="20" id="UBd-QK-8JS"/>
